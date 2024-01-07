@@ -15,13 +15,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
-  <body class="bg-gray-100">
+  <body class="bg-gray-100 flex flex-col items-center flex-wrap justify-center">
     <div
-      class="container border border-black flex h-screen gap-2 items-center justify-center"
+      class="container border border-black flex p-24 gap-2 items-center justify-center flex-wrap"
     >
-      <div class="right h-fit w-1/2">
-        <img src="../Images/fb.svg" alt="FaceBook" class="w-1/2" />
-        <p class="text-3xl mx-8 font-medium">
+      <div class="right h-fit lg:w-1/2">
+        <img src="../Images/fb.svg" alt="FaceBook" class="w-60" />
+        <p class="lg:text-3xl mx-5 font-medium">
           Facebook helps you connect and share with the people in your life.
         </p>
       </div>
@@ -32,7 +32,7 @@
           <input
             type="text"
             placeholder="Email address or Phone Number"
-            class="py-3 pl-3 pr-24 border border-gray-300 rounded-lg text-gray-100 outline-blue-500 font-medium"
+            class="p-3 sm:py-3 sm:pl-4 sm:pr-28 border border-gray-300 rounded-lg text-gray-100 outline-blue-500 font-medium"
           />
           <input
             type="text"
@@ -45,19 +45,21 @@
             Log in
           </button>
           <p
-            class="text-blue-600 text-center text-sm font-medium hover:underline cursor-pointer"
+            class="text-blue-500 text-center text-sm font-medium hover:underline cursor-pointer"
           >
             Forgotten password?
           </p>
           <hr />
           <button
-            class="bg-green-500 hover:bg-green-600 px-5 py-3 w-fit rounded-md ml-20 text-white font-semibold"
+            class="bg-green-500 hover:bg-green-600 px-5 py-3 w-fit rounded-md sm:ml-24 text-white font-semibold"
           >
             Create New Account
           </button>
         </div>
         <div class="pageCreate my-4 text-center">
-          <span class=" cursor-pointer text-sm font-bold hover:underline">Create a Page</span>
+          <span class="cursor-pointer text-sm font-bold hover:underline"
+            >Create a Page</span
+          >
           <span class="text-sm">for a celebrity, brand or business.</span>
         </div>
       </div>
