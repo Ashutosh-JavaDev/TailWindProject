@@ -15,26 +15,29 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
-  <body>
-    <div class="container border border-2 flex item-center justify-center">
-      <div class="right">
-        <img src="../Images/fb.svg" alt="FaceBook" />
+  <body class="bg-gray-100">
+    <div class="container border border-2 border-black flex h-screen gap-2 items-center justify-center">
+      <div class="right border h-fit w-1/4 border-green-700">
+        <img src="../Images/fb.svg" class="w-1/2" alt="FaceBook" />
         <p>
           Facebook helps you connect and share with the people in your life.
         </p>
       </div>
-      <div class="left">
+      <div class="left bg-white shadow-xl border-red-500 border-2 rounded-md h-fit p-4 flex flex-col gap-3 flex-wrap">
         <input
           type="text"
           placeholder="Email address or Phone Number"
-          class="p-2 border border-gray-300 rounded-lg w-1/4 text-gray-500 font-medium"
+          class="py-3 pl-3 pr-16 border border-gray-300 rounded-lg text-gray-500 font-medium"
         />
         <input
           type="text"
           placeholder="Password"
-          class="p-2 border border-gray-300 rounded-lg w-1/4 text-gray-500 font-medium"
+          class="p-3 border border-gray-300 rounded-lg text-gray-500 font-medium"
         />
-        <button class="bg-blue-500 text-white">Log In</button>
+        <button class="bg-blue-600 font-semibold rounded-md py-3 text-white hover:bg-blue-700">Log in</button>
+        <p class="text-blue-600 text-center text-sm font-medium hover:underline cursor-pointer">Forgotten password?</p>
+        <hr>
+        <button>Create New Account</button>
       </div>
     </div>
   </body>
