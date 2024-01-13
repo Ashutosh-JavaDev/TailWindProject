@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-blue-950 w-full">
-    <div class="container h-screen w-full gap-5">
+    <div class="container flex items-center flex-col justify-between h-screen w-screen gap-5">
       <!-- Navigation -->
       <div
         class="border w-screen flex flex-wrap justify-around p-3 items-center"
@@ -51,21 +51,23 @@
           </button>
         </div>
       </div>
+      <!-- Div2 -->
+      <div class="w-fit text-white border p-3 grid grid-rows-3 gap-3 items-center justify-center">
       <!-- Para -->
-      <div>
-        <div><p>Shaping a world with reimagination.</p></div>
+        <div><h1 class="text-6xl font-bold">Shaping a world with reimagination.</h1></div>
         <div>
-          <p>
+          <p class="text-gray-400 leading-6">
             In a world where innovation is the heartbeat of progress, we invite
-            you to a space where imagination takes the lead. 'Shaping a World
-            with Reimagination' is not just a concept; it's a call to action.
+            you to a space where imagination takes the lead. <br> 'Shaping a World
+            with Reimagination' is not just a concept; it's a call to action. <br>
             Here, we believe in the power of transformative thinking, pushing
             boundaries, and breathing life into ideas that redefine what's
             possible.
           </p>
         </div>
-        <div><button>Get Started</button>
-            <button>Lern More</button>
+        <div class="flex flex-wrap gap-3 items-center justify-center">
+          <button class="font-bold hover:bg-purple-700 bg-purple-600 text-white text-sm px-4 py-2 rounded-3xl">Get Started</button>
+          <button class="font-bold hover:bg-gray-700 bg-black text-white text-sm px-4 py-2 rounded-3xl">Learn More</button>
         </div>
       </div>
     </div>
