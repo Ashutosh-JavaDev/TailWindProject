@@ -7,14 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-black w-full">
-    <div class="container flex xl:flex-wrap items-center flex-col justify-between h-screen w-full gap-5">
+    <div
+      class="container flex xl:flex-wrap items-center flex-col justify-between h-screen w-full gap-5"
+    >
       <!-- Navigation -->
       <div
         class="border w-screen flex flex-wrap justify-around p-3 items-center"
       >
         <div><img src="../Images/icons8-facebook-48.png" alt="iMAGE" /></div>
         <div
-          class="cursor-pointer grid grid-cols-5 list-none gap-3 items-center"
+          class="cursor-pointer grid grid-cols-2 sm:grid-cols-5 list-none gap-3 items-center"
         >
           <li>
             <a
@@ -52,40 +54,62 @@
         </div>
       </div>
       <!-- Div2 -->
-      <div class="w-fit text-white border p-3 grid grid-rows-3 gap-3 items-center justify-center">
-      <!-- Para -->
-        <div><h1 class="text-6xl font-bold">Shaping a world with reimagination.</h1></div>
+      <div
+        class="w-fit text-white border p-3 flex flex-wrap gap-5 sm:grid grid-rows-3 sm:gap-3 items-center justify-center"
+      >
+        <!-- Para -->
+        <div>
+          <h1 class="text-4xl sm:text-6xl font-bold">
+            Shaping a world with reimagination.
+          </h1>
+        </div>
         <div>
           <p class="text-gray-400 leading-6">
             In a world where innovation is the heartbeat of progress, we invite
-            you to a space where imagination takes the lead. <br> 'Shaping a World
-            with Reimagination' is not just a concept; it's a call to action. <br>
+            you to a space where imagination takes the lead. <br />
+            'Shaping a World with Reimagination' is not just a concept; it's a
+            call to action. <br />
             Here, we believe in the power of transformative thinking, pushing
             boundaries, and breathing life into ideas that redefine what's
             possible.
           </p>
         </div>
         <div class="flex flex-wrap gap-3 items-center justify-center">
-          <button class="font-bold hover:bg-purple-700 bg-purple-600 text-white text-sm px-4 py-2 rounded-3xl">Get Started</button>
-          <button class="font-bold hover:bg-gray-700 bg-black text-white text-sm px-4 py-2 rounded-3xl">Learn More</button>
+          <button
+            class="font-bold hover:bg-purple-700 bg-purple-600 text-white text-sm px-4 py-2 rounded-3xl"
+          >
+            Get Started
+          </button>
+          <button
+            class="font-bold hover:bg-gray-700 bg-black text-white text-sm px-4 py-2 rounded-3xl"
+          >
+            Learn More
+          </button>
         </div>
       </div>
-      <hr class="w-full">
+      <hr class="w-3/4 sm:w-full" />
       <!-- Price -->
-      <div class="text-white grid border grid-cols-3 p-3 justify-center items-center gap-3">
-        <div>
-            <div><p>The Lowest Price</p></div>
-            <div>$7.07</div>
+      <div
+        class="flex flex-wrap text-white sm:grid border grid-cols-3 p-3 justify-center w-full items-center gap-3"
+      >
+        <div class="border p-3 text-center">
+          <div class="text-red-500 font-bold text-lg">
+            <p>The Lowest Price</p>
+          </div>
+          <div>$7.07</div>
         </div>
-        <div>
-            <div>The Fastest on the Market</div>
-            <div>8967+ Downloads</div>
+        <div class="border p-3 text-center">
+          <div class="text-blue-500 font-bold text-lg">
+            The Fastest on the Market
+          </div>
+          <div>8967+ Downloads</div>
         </div>
-        <div>
-            <div>The Most Loved</div>
-            <div>54367 Likes</div>
+        <div class="border p-3 text-center">
+          <div class="text-yellow-500 font-bold text-lg">The Most Loved</div>
+          <div>54367 Likes</div>
         </div>
       </div>
+      <hr class="w-3/4 sm:w-full" />
     </div>
   </body>
 </html>
