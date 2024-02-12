@@ -4,5 +4,9 @@
 @layer base{
     body{
         font-family: "Josefin Sans", sans-serif;
+        opacity: 0.9;
+    }
+    img{
+        box-shadow: 2px -2px 7px rgb(32, 30, 30);
     }
 }
