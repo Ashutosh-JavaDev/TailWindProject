@@ -6,18 +6,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Open PRO Demo-Cruip</title>
 </head>
-<body class="bg-black text-white lg:w-1/2 m-auto">
-    <div class="flex items-center justify-between">
+<body class="bg-black text-white lg:w-4/5 m-auto">
+    <div class="flex flex-wrap items-center justify-between border p-2">
         <div><img src="../Images/airbnb.svg" alt="Image"></div>
-        <div><ul class="grid grid-cols-1">
+        <div><ul class="hidden sm:grid grid-cols-5 justify-between border p-3 gap-5">
             <li><a href="#">Features</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Support</a></li>
         </ul></div>
-        <div><button>Sign in</button>
-             <button>Sign up</button></div>
+        <div class="flex gap-5"><button class="text-blue-600 hover:text-white">Sign in</button>
+             <button class="bg-blue-600 p-2">Sign up</button></div>
     </div>
+    
 </body>
 </html>
