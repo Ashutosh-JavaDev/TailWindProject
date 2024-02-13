@@ -12,6 +12,13 @@
   h1{
     font-family: "Roboto", sans-serif;
   }
+  .content{
+    font-family: "Caveat", cursive;
+  }
+  .robot{
+    font-family: "Roboto", sans-serif;
+
+  }
 }
 /* Fonts
 .roboto-thin {
